@@ -27,7 +27,12 @@ ROS Noetic version was used for this project.
 * Open the 'human_baxter_collaboration' package, then navigate to config folder and open the params.yaml file. Under ROS_IP, insert the IP address of your machine.
 * Compile packages with catkin_make
 * Don't forget you need MoveIt framework for this project, thus install the binaries from [here](https://moveit.ros.org/install/).
-* Once all dependencies are resolved, run the following to initialize the ROS/Unity bridge and start communication with Unity (ensure the server communication is up and running, you should see the following line in the terminal 'Starting server on YOUR IP:10000')
+* Clone the [baxter_common](https://github.com/RethinkRobotics/baxter_common) and [moveit_robots](https://github.com/ros-planning/moveit_robots) in the _src_ folder of your workspace.
+* Once all dependencies are resolved, start the roscore using the following command.
+  ```
+  roscore &
+  ```
+* Run the following command to initialize the ROS/Unity bridge and start communication with Unity (ensure the server communication is up and running, you should see the following line in the terminal 'Starting server on YOUR IP:10000').
   ```
   roslaunch human_baxter_collaboration human_baxter_collaboration.launch
   ```
