@@ -10,6 +10,12 @@ Submitted by:
 * Soundarya Pallanti 
 * Abhilash Jakkampudi
 
+## Introduction: 
+
+This project demonstrates a simulation of a task performed through human-robot collaboration. The 3D simulation environment has been developed in Unity and consists of a Baxter robot, human avatar, table, red box, blue box, red cubes, and blue cubes. The task at hand is for the robot to pick the blue cubes spread on top of the table and place them in the blue box while the human performs similar actions for the red cubes. The Baxter robot is controlled through a bridge via TCP between ROS and Unity where ROS receives messages from Unity and communicates trajectory information in return. The project can serve as the foundation to study more complex activities requiring such a collaboration and has the potential to be expanded to various domestic and industrial applications. 
+
+This GitHub repository contains the source code as well as the installation guidelines required to run the simulation.
+
 ### Unity Installation (Windows)
 
 Visit [Unity website](https://unity3d.com/get-unity/download) and download Unity Hub
