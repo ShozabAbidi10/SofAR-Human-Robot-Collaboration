@@ -1,14 +1,4 @@
-# Software Architecture for Robotics
-
-## Human-Baxter Collaboration
-
-#### Group: HRC-07
-Submitted by:
-
-* Syed Hasan Shozab Abidi
-* Muhammad Ali Haider Dar
-* Soundarya Pallanti 
-* Abhilash Jakkampudi
+# Human-Robot Collaboration Project (MSc Robotics Engineering, Unige)
 
 ## Introduction: 
 
