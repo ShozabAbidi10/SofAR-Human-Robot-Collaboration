@@ -194,7 +194,7 @@ def main():
 									response = client_right(req)
 									print("Sending request..")
 									#wait for 1 sec
-									rospy.sleep(2.)
+									rospy.sleep(2)
 									print(response)
 									pub_BaxterTrajectory.publish(arm, response.trajectories)						    
 								except rospy.ServiceException as e:
@@ -219,7 +219,7 @@ def main():
 									#req.place_pose.position.z = req.place_pose.position.z + 0.05
 									#print(req)
 									response = client_left(req)
-									rospy.sleep(2.)
+									rospy.sleep(2)
 									print("Sending request..")
 									print(response)
 									pub_BaxterTrajectory.publish(arm, response.trajectories)
